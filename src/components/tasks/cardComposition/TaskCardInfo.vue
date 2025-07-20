@@ -60,7 +60,7 @@ const getBadgeVariant = (status: string): BadgeProps["variant"] => {
     <div class="flex flex-col items-start gap-4">
       <!-- Data -->
       <InfoItem
-        icon="i-mdi-clock"
+        icon="i-mdi-clock-outline"
         :title="UI_LABELS.INFO_LABELS.TIME"
       >
         <span class="text-gray-600">
