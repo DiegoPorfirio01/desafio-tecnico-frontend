@@ -35,7 +35,7 @@ const getBadgeVariant = (status: string): BadgeProps["variant"] => {
 <template>
   <div class="flex items-start gap-8 text-xs text-gray-500">
     <!-- Primeira coluna: Status e Tipo -->
-    <div class="flex flex-col items-start gap-4">
+    <div class="flex flex-col justify-between h-full  gap-4">
       <!-- Status -->
       <InfoItem title="Status da tarefa">
         <Badge
@@ -57,7 +57,7 @@ const getBadgeVariant = (status: string): BadgeProps["variant"] => {
     </div>
 
     <!-- Segunda coluna: Data e Etiqueta -->
-    <div class="flex flex-col items-start gap-4">
+    <div class="flex flex-col justify-between h-full gap-4">
       <!-- Data -->
       <InfoItem
         icon="i-mdi-clock-outline"
